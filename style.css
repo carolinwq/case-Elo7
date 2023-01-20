@@ -404,9 +404,8 @@ h3 {
   #vagas-disponiveis li span {
     padding-bottom: 1rem;
     font-size: 1rem;
-
+  }
 }
-
 @media screen and (max-width: 420px) {
   .header-imagem h1 {
     font-size: 2.4rem;
