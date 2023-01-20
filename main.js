@@ -1,3 +1,6 @@
+var javaScriptDesativado = document.getElementById("javascript-desativado");
+javaScriptDesativado.innerHTML = "";
+
 document.addEventListener("DOMContentLoaded", () => {
   async function fetchData() {
     const response = await fetch(
@@ -6,6 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const data = await response.json();
     var vagasTotais = data.vagas;
     var vagasDisp = vagasTotais.filter((a) => a.ativa === true);
+
+    var vagasArea = document.getElementById("vagas-area");
+    vagasArea.innerHTML = "Desenvolvimento";
 
     vagasDisp.forEach(function (vagas) {
       var ulVagas = document.getElementById("vagas-disponiveis");
@@ -33,5 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchData();
 });
 
-var javaScriptOff = document.getElementById("javascript-off");
-javaScriptOff.innerHTML = "";
+function scrollInit() {
+  ScrollReveal().reveal(".nosso-time-imagem-1", { duration: 2000, delay: 200 });
+  ScrollReveal().reveal(".nosso-time-imagem-2", { duration: 2000, delay: 300 });
+  ScrollReveal().reveal(".nosso-time-imagem-3", { duration: 2000, delay: 400 });
+  ScrollReveal().reveal(".nosso-time-imagem-4", { duration: 2000, delay: 500 });
+}
+scrollInit();
