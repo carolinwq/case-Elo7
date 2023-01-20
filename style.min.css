@@ -1,4 +1,3 @@
-/* Reset */
 body,
 h1,
 h2,
@@ -9,68 +8,53 @@ a {
   margin: 0px;
   padding: 0px;
 }
-
 ul {
   list-style: none;
 }
-
 img {
   display: block;
   max-width: 100%;
 }
-
 a {
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }
-
-/* Geral */
 html {
   scroll-behavior: smooth;
 }
-
 @font-face {
   font-family: "museo-sans";
   src: url("./fontes/MuseoSans_300.ttf");
   font-weight: 300;
 }
-
 @font-face {
   font-family: "museo-sans";
   src: url("./fontes/MuseoSans_500.ttf");
   font-weight: 500;
 }
-
 @font-face {
   font-family: "museo-sans";
   src: url("./fontes/MuseoSans_700.ttf");
   font-weight: 700;
 }
-
 body {
   font-family: "museo-sans";
   color: #7d7873;
   line-height: 1.7rem;
 }
-
 h2,
 h3 {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .container {
   max-width: 53rem;
   margin: 0 auto;
   padding: 0 1em;
 }
-
-/* Header: Trabalho no Elo7 */
-
 .header-imagem {
   height: 450px;
   display: flex;
@@ -78,7 +62,6 @@ h3 {
   align-items: center;
   background: url("./imagens/foto-header.jpg") center center no-repeat;
 }
-
 .header-imagem h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -86,45 +69,35 @@ h3 {
   margin-top: 10rem;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.724);
 }
-
 .header-texto {
   text-align: center;
   padding: 2rem 0;
 }
-
 .header-texto p {
   font-size: 1rem;
   margin-bottom: 2.2rem;
 }
-
 .link-info {
   border-top: solid 1px black;
   padding: 1.3rem 5rem 0 5rem;
 }
-
 .link-info a {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: rgb(100, 153, 153);
 }
-
 .link-info a::after {
   content: "\00bb";
   padding-left: 0.2rem;
 }
-
-/* Main */
-
 .conteudo {
   background-color: #efefef;
 }
-
 .conteudo-ceo {
   padding: 3rem 0 3rem 0;
   display: flex;
   gap: 4rem;
 }
-
 .conteudo-ceo-video iframe {
   width: 400px;
   height: 220px;
@@ -139,54 +112,43 @@ h3 {
   font-size: 1.2rem;
   padding: 0.3rem 0 2rem 0;
 }
-
 .conteudo-ceo-palavra p:last-child {
   text-align: justify;
 }
-
 .nosso-time {
   background: #efefef;
   display: flex;
 }
-
 .nosso-time h2 {
   text-align: center;
 }
-
 .nosso-time-fotos {
   display: flex;
   gap: 0.6rem;
   margin: 3rem 0;
 }
-
 .diferenciais {
   padding: 4rem 0;
 }
-
 .diferenciais-itens {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
   justify-items: center;
 }
-
 .diferenciais-itens div {
   text-align: center;
 }
-
 .diferenciais-itens div:hover {
   color: #f6a85b;
 }
-
 .diferenciais-itens h3 {
   font-size: 1.1rem;
   font-weight: 700;
 }
-
 .diferenciais-itens img {
   display: inline-block;
 }
-
 .diferenciais-itens p {
   text-align: justify;
   padding-top: 0.8rem;
@@ -196,27 +158,20 @@ h3 {
   text-align: center;
   padding-top: 4rem;
 }
-
 .vagas h2 {
   text-align: center;
   padding: 3rem 0;
 }
-
 .vagas {
   text-align: center;
 }
-
-/* Vagas */
-
 #javascript-off {
   font-size: 2rem;
   color: #f6a85b;
 }
-
 #vagas-disponiveis {
   padding-bottom: 3rem;
 }
-
 #vagas-disponiveis li {
   line-height: 1rem;
   display: flex;
@@ -224,30 +179,24 @@ h3 {
   justify-content: space-between;
   line-height: 0.3rem;
 }
-
 #vagas-disponiveis li h3 {
   text-transform: none;
   font-weight: 700;
 }
-
 #vagas-disponiveis span {
   font-size: 1.2rem;
 }
-
 #vagas-area {
   font-size: 1.35rem;
   font-weight: bold;
   display: flex;
   padding-bottom: 1rem;
 }
-/* Animações */
-
 .shake-vertical:hover > img {
   -webkit-animation: shake-vertical 2s cubic-bezier(0.455, 0.03, 0.515, 0.955)
     0.45 both;
   animation: shake-vertical 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.45 both;
 }
-
 @-webkit-keyframes shake-vertical {
   0%,
   100% {
@@ -304,93 +253,73 @@ h3 {
     transform: translateY(-6.4px);
   }
 }
-
 .titulo:hover {
   pointer-events: all;
 }
-
-/* Responsividade */
-
 @media screen and (max-width: 768px) {
   .header-imagem {
     background-size: cover;
     height: 300px;
   }
-
   .header-texto p {
     font-size: 1.3rem;
     padding: 0 4rem;
   }
-
   h2,
   h3 {
     font-size: 2rem;
   }
-
   .conteudo-ceo {
     display: grid;
     align-content: center;
   }
-
   .conteudo-ceo-video {
     text-align: center;
     grid-row: 2/3;
     align-items: center;
   }
-
   .conteudo-ceo-video iframe {
     width: 500px;
     height: 275px;
   }
-
   .conteudo-ceo-palavra {
     font-size: 1.3rem;
     padding: 0 4rem;
     text-align: center;
   }
-
   .conteudo-ceo-palavra p:last-child {
     text-align: center;
   }
-
   .conteudo-ceo-palavra p:nth-child(2) {
     padding: 0.7rem 0 1.2rem 0;
     font-size: 1.5rem;
   }
-
   .nosso-time h2 {
     line-height: 2.5rem;
   }
-
   .diferenciais-itens {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .diferenciais-itens h3 {
     font-size: 1.8rem;
   }
-
   .diferenciais-itens p {
     text-align: center;
     padding: 0 4rem;
     font-size: 1.3rem;
   }
-
   span a {
     font-size: 1.6rem;
   }
-
   #vagas-disponiveis h3 {
     font-size: 1.4rem;
   }
-
   #vagas-disponiveis li {
     display: grid;
     text-align: start;
     padding-left: 3rem;
   }
-
   #vagas-disponiveis li span {
     padding-bottom: 2rem;
     font-size: 1.3rem;
@@ -400,21 +329,17 @@ h3 {
     font-size: 1.8rem;
   }
 }
-
 @media screen and (max-width: 620px) {
   .conteudo-ceo-video iframe {
     width: 300px;
     height: 165px;
   }
-
   #vagas-disponiveis h3 {
     font-size: 1.1rem;
   }
-
   #vagas-disponiveis li {
     padding-left: 0.8rem;
   }
-
   #vagas-disponiveis li span {
     padding-bottom: 1rem;
     font-size: 1rem;
@@ -424,7 +349,6 @@ h3 {
     font-size: 1.5rem;
   }
 }
-
 @media screen and (max-width: 420px) {
   .header-imagem h1 {
     font-size: 2.4rem;
@@ -433,32 +357,26 @@ h3 {
     padding: 0 4rem;
     text-align: center;
   }
-
   h2,
   h3 {
     font-size: 1.5rem;
   }
-
   .header-texto p {
     font-size: 1.2rem;
     padding: 0 1rem;
   }
-
   .conteudo-ceo-palavra {
     font-size: 1.2rem;
     padding: 0 1.3rem;
     text-align: center;
   }
-
   .conteudo-ceo-palavra p:last-child {
     text-align: center;
   }
-
   .conteudo-ceo-palavra p:nth-child(2) {
     padding: 0.7rem 0 1.2rem 0;
     font-size: 1.2rem;
   }
-
   .link-info {
     border-top: none;
     padding: 1.3rem 5rem 0 5rem;
@@ -466,24 +384,19 @@ h3 {
   .link-info a {
     font-size: 1.1rem;
   }
-
   .nosso-time-fotos {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .diferenciais-itens img {
     width: 40%;
   }
-
   .diferenciais-itens h3 {
     font-size: 1.4rem;
   }
-
   .diferenciais-itens p {
     padding: 0 1.2rem;
   }
-
   .saiba-mais {
     padding-top: 2rem;
   }
@@ -493,11 +406,9 @@ h3 {
   #vagas-disponiveis h3 {
     font-size: 0.8rem;
   }
-
   #vagas-disponiveis li {
     padding-left: 0.1rem;
   }
-
   #vagas-disponiveis li span {
     padding-bottom: 1rem;
     font-size: 0.8rem;
@@ -507,21 +418,16 @@ h3 {
     font-size: 1.2rem;
   }
 }
-/*scroll*/
 * {
   scrollbar-width: auto;
   scrollbar-color: #ffd642 #ffffff;
 }
-
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 16px;
 }
-
 *::-webkit-scrollbar-track {
   background: #ffffff;
 }
-
 *::-webkit-scrollbar-thumb {
   background-color: #ffd642;
   border-radius: 8px;
