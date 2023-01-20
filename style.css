@@ -1,0 +1,199 @@
+/* Reset */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Geral */
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "museo-sans";
+  src: url("./fontes/MuseoSans_300.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "museo-sans";
+  src: url("./fontes/MuseoSans_500.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "museo-sans";
+  src: url("./fontes/MuseoSans_700.ttf");
+  font-weight: 700;
+}
+
+body {
+  font-family: "museo-sans";
+  color: #7d7873;
+  line-height: 1.7rem;
+}
+h2,
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.container {
+  max-width: 53rem;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Trabalhe no Elo7 */
+
+.header-imagem {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./imagens/foto-header.jpg") center center no-repeat;
+}
+
+.header-imagem h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.724);
+}
+.header-texto {
+  text-align: center;
+  padding: 2rem 0;
+}
+.header-texto p {
+  font-size: 1rem;
+  margin-bottom: 2.2rem;
+}
+
+.link-info {
+  border-top: solid 1px black;
+  padding: 1.3rem 5rem 0 5rem;
+}
+.link-info a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(100, 153, 153);
+}
+.link-info a::after {
+  content: "\00bb";
+  padding-left: 0.2rem;
+}
+/* main */
+
+.conteudo {
+  background-color: #efefef;
+}
+.conteudo-ceo {
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  gap: 4rem;
+}
+.conteudo-ceo-palavra p:nth-child(2) {
+  color: #f6a85b;
+  font-style: italic;
+  font-size: 1.2rem;
+  padding: 0.3rem 0 2rem 0;
+}
+.conteudo-ceo-palavra p:last-child {
+  text-align: justify;
+}
+.nosso-time {
+  background: #efefef;
+  display: flex;
+}
+.nosso-time h2 {
+  text-align: center;
+}
+.nosso-time-fotos {
+  display: flex;
+  gap: 0.6rem;
+  margin: 3rem 0;
+}
+.diferenciais {
+  padding: 4rem 0;
+}
+.diferenciais-itens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  justify-items: center;
+}
+.diferenciais-itens div {
+  text-align: center;
+}
+.diferenciais-itens h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.diferenciais-itens img {
+  display: inline-block;
+}
+
+.diferenciais-itens p {
+  text-align: justify;
+  padding-top: 0.8rem;
+  color: #9f9f9f;
+}
+.saiba-mais {
+  text-align: center;
+  padding-top: 4rem;
+}
+.vagas h2 {
+  text-align: center;
+  padding: 3rem 0;
+}
+.vagas {
+  text-align: center;
+}
+
+/* Vagas */
+
+#javascript-off {
+  font-size: 2rem;
+  color: #f6a85b;
+}
+#vagas-disponiveis {
+  padding-bottom: 3rem;
+}
+#vagas-disponiveis li {
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0.3rem;
+}
+#vagas-disponiveis li h3 {
+  text-transform: none;
+  font-weight: 700;
+}
+#vagas-disponiveis span {
+  font-size: 1.2rem;
+}
+
+/* Responsividade */
+
+

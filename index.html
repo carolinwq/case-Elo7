@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe no Elo7</title>
+    <link rel="shortcut icon" href="/imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-imagem">
+            <h1>Trabalhe no Elo7</h1>
+        </div>
+        <div class="header-texto container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus, tempus quis lacinia in, vehicula ut turpis.</p>
+            <span class="link-info"><a href="#vagas"> Vagas em aberto</a></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <div class="conteudo-ceo container">
+                <div class="conteudo-ceo-video">
+                    <iframe width="400" height="220" src="https://www.youtube.com/embed/UQ2-6gk9Szs?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="conteudo-ceo-palavra">
+                    <h2>Palavra do CEO</h2>
+                    <p>Carlos Curioni</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus, tempus quis lacinia in, vehicula ut turpis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="nosso-time">
+            <div class="container">
+                <h2>Conheça nosso time <br> fora de série</h2>
+                <ul class="nosso-time-fotos">
+                    <li class="nosso-time-imagem-1"><img src="./imagens/camila.jpg" alt="Camila"></li>
+                    <li class="nosso-time-imagem-2"><img src="./imagens/guto.jpg" alt="Guto"></li>
+                    <li class="nosso-time-imagem-3"><img src="./imagens/david.jpg" alt="David"></li>
+                    <li class="nosso-time-imagem-4"><img src="./imagens/beatriz.jpg" alt="Beatriz"></li>
+            </div>
+        </section>
+
+        <section class="diferenciais container">
+            <div class="diferenciais-itens">
+                <div>
+                    <img src="./imagens/qualidade.svg">
+                    <h3>Qualidade de Vida</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ex, at malesuada ligula. Pellentesque odio ipsum.</p>
+                </div>
+
+                <div>
+                    <img src="./imagens/descontracao.svg">
+                    <h3>Ambiente Descontraído</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus, tempus quis lacinia in, vehicula ut turpis.</p>
+                </div>
+
+                <div>
+                    <img src="./imagens/atividades.svg">
+                    <h3>Atividades Extras</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut efficitur ex, at malesuada ligula. Pellentesque odio ipsum, viverra a eros sit amet, fringilla sagittis augue. Fusce risus tellus.</p>
+                </div>
+
+            </div>
+
+            <div class="saiba-mais">
+                <span class="link-info">
+                    <a href="https://www.linkedin.com/company/elo7/" target="_blank" rel="noopener noreferrer">Saiba Mais</a>
+                </span>
+            </div>
+        </section>
+    </main>
+
+    <section class="container">
+        <div class="feira-foto">
+            <img src="./imagens/foto-bottom.jpg" alt="Feira de produtos artesanais">
+        </div>
+
+        <div class="vagas" id="vagas">
+            <h2>Vagas em Aberto</h2>
+            <span id="javascript-off">Ative o JavaScript para visualizar as vagas disponiveis.</span>
+            <div>
+                <ul id="vagas-disponiveis">
+                </ul>
+            </div>
+    </section>
+    <script>
+        ScrollReveal().reveal('.nosso-time-imagem-1', { duration: 2000, delay: 200 })
+        ScrollReveal().reveal('.nosso-time-imagem-2', { duration: 2000, delay: 300 })
+        ScrollReveal().reveal('.nosso-time-imagem-3', { duration: 2000, delay: 400 })
+        ScrollReveal().reveal('.nosso-time-imagem-4', { duration: 2000, delay: 500 })
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
