@@ -1,17 +1,17 @@
 <h2>Página de Carreiras do Elo7</h2>
 
-**• Descrição**<br>
-Projeto baseado no desafio proposto no processo seletivo para a vaga de Front-End Developer, onde foi sugerida a criação de uma landing page de carreiras para o Elo7.
+📄 **Descrição**<br>
+Projeto baseado no desafio proposto no processo seletivo para a vaga de Front-End Developer do Elo7, onde foi sugerida a criação de uma landing page de carreiras.
 
-**• Instruções**<br>
+✍ **Instruções**<br>
 Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 
-**• Tecnologias Utilizadas**
+💻 **Tecnologias Utilizadas**
 - HTML;
 - CSS;
 - JS Vanilla.
 
-**• Etapas seguidas para o desenvolvimento do projeto** <br>
+✏ **Etapas do Desenvolvimento do Projeto** <br>
 1- Criação da estrutura em HTML;<br>
 2- Estilização com CSS da versão Desktop;<br>
 2.1 - Inserção de responsividade, aplicando conceitos Mobile First;
