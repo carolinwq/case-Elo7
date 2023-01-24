@@ -11,7 +11,7 @@ Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 - CSS;
 - JS Vanilla.
 
-✏ **Etapas do Desenvolvimento do Projeto** <br>
+✏ **Etapas de Desenvolvimento do Projeto** <br>
 1- Criação da estrutura em HTML;<br>
 2- Estilização com CSS da versão Desktop;<br>
 2.1 - Inserção de responsividade;<br>
