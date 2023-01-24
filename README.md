@@ -14,7 +14,7 @@ Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 ✏ **Etapas do Desenvolvimento do Projeto** <br>
 1- Criação da estrutura em HTML;<br>
 2- Estilização com CSS da versão Desktop;<br>
-2.1 - Inserção de responsividade, aplicando conceitos Mobile First;
+2.1 - Inserção de responsividade;<br>
 2.2 - Inclusão de efeitos e animações;<br>
 3- Redução de cerca de 80% do tamanho das imagens para ajudar a melhorar o carregamento da página;<br>
 4- Implementação do JS para acesso à API, retornando as vagas de forma dinâmica;<br>
