@@ -22,6 +22,6 @@ Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 6- Minificação dos arquivos main.js e style.css para diminuir o consumo de dados no carregamento;<br>
 7- Inclusão de evento que carrega a página antes do script, evitando possíveis atrasos e erros.
 
-
+**É isso, espero que gostem! :) 💛**
 
 
