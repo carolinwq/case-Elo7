@@ -7,9 +7,9 @@ Projeto baseado no desafio proposto no processo seletivo para a vaga de Front-En
 Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 
 💻 **Tecnologias Utilizadas**
-- HTML;
-- CSS;
-- JS Vanilla.
+- HTML
+- CSS
+- JS Vanilla
 
 ✏ **Etapas de Desenvolvimento do Projeto** <br>
 1- Criação da estrutura em HTML;<br>
