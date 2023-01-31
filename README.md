@@ -13,14 +13,15 @@ Para executar o projeto, é necessário clonar/baixar o repositório.<br>
 
 ✏ **Etapas de Desenvolvimento do Projeto** <br>
 1- Criação da estrutura em HTML;<br>
-2- Estilização com CSS da versão Desktop;<br>
+2- Estilização da versão Desktop;<br>
 2.1 - Inserção de responsividade;<br>
 2.2 - Inclusão de efeitos e animações;<br>
 3- Redução de cerca de 80% do tamanho das imagens para ajudar a melhorar o carregamento da página;<br>
 4- Implementação do JS para acesso à API, retornando as vagas de forma dinâmica;<br>
-5- Execução do Lighthouse para medir a qualidade da página (SEO, acessibilidade, performance, etc);<br>
+5- Inclusão de evento que carrega a página antes do script, evitando possíveis atrasos e erros;<br>
 6- Minificação dos arquivos main.js e style.css para diminuir o consumo de dados no carregamento;<br>
-7- Inclusão de evento que carrega a página antes do script, evitando possíveis atrasos e erros.
+5- Execução do Lighthouse para medir a qualidade da página (SEO, acessibilidade, performance, etc).<br>
+
 
 **É isso, espero que gostem! :) 💛**
 
